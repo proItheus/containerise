@@ -7,9 +7,7 @@ Firefox extension to automatically open websites in a container
 |Select your container and add a domain to always open all visits in the chosen container. | Add many domains as you wish. | Special `No Container` option to break out of a container. | Simple CSV based mapping of a domain to a container by name for easy backup and bulk editing. |
 
 
-# Installation
-Install the latest release for Firefox from [AMO](https://addons.mozilla.org/en-US/firefox/addon/containerise/)
-
+#  This is a modified version of the extension by @proitheus to add sync support
 
 
 # Usage
@@ -28,6 +26,8 @@ Install the latest release for Firefox from [AMO](https://addons.mozilla.org/en-
 
 
 # Development
+
+**IMPORTANT: USE PYTHON 2.7 AND NODE 14**
 
 ## Available Scripts
 In the project directory, you can run:
